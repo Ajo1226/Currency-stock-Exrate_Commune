@@ -5,4 +5,3 @@ export const CurrentUser = createParamDecorator(
     return context.switchToHttp().getRequest().currentUser;
   },
 );
-x;
