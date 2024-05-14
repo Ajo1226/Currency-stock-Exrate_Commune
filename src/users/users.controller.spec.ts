@@ -27,7 +27,6 @@ describe('UsersController', () => {
       signIn: (email: string, password: string) => {
         return Promise.resolve({ id: 1, email, password } as User);
       },
-      // signUp: () => {},
     };
     const module: TestingModule = await Test.createTestingModule({
       controllers: [UsersController],
