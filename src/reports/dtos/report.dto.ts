@@ -4,6 +4,8 @@ export class ReportDto {
   @Expose()
   id: string;
   @Expose()
+  approved: number;
+  @Expose()
   lat: number;
   @Expose()
   lng: number;
