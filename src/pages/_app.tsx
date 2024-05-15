@@ -75,7 +75,7 @@ export default function App({
 				/>
 				<meta
 					property="og:url"
-					content="http://markex.zectan.com/"
+					content=""
 				/>
 				<meta
 					property="og:title"
@@ -87,7 +87,7 @@ export default function App({
 				/>
 				<meta
 					property="og:image"
-					content="http://markex.zectan.com/logo.png"
+					content="logo.gif"
 				/>
 				<link
 					rel="icon"

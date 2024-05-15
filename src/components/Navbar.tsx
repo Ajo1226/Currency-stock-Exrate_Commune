@@ -228,7 +228,7 @@ export default function Navbar({
 					my={8}
 					mx={4}>
 					<Image
-						src="/logo.png"
+						src="/logo.gif"
 						alt="Logo"
 						width={24}
 						height={24}
@@ -241,7 +241,7 @@ export default function Navbar({
 							initial={{ opacity: 1 }}
 							animate={{ opacity: 1 }}
 							exit={{ opacity: 0 }}>
-							<Title order={4}>Markex</Title>
+							<Title order={4}>Commune</Title>
 						</motion.div>
 					)}
 				</AnimatePresence>
