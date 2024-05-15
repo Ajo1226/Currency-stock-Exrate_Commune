@@ -97,10 +97,6 @@ export default function App({
 					rel="apple-touch-icon"
 					href="/favicon.ico"
 				/>
-				<link
-					rel="manifest"
-					href="/manifest.json"
-				/>
 			</Head>
 
 			<SessionProvider session={session}>
