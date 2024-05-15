@@ -1,16 +1,4 @@
-![Markex Cover Image](https://res.cloudinary.com/zs1l3nt/image/upload/repositories/web-next-markex.png)
-
-# Markex
-
-![License](https://img.shields.io/github/license/zS1L3NT/web-next-markex?style=for-the-badge) ![Languages](https://img.shields.io/github/languages/count/zS1L3NT/web-next-markex?style=for-the-badge) ![Top Language](https://img.shields.io/github/languages/top/zS1L3NT/web-next-markex?style=for-the-badge) ![Commit Activity](https://img.shields.io/github/commit-activity/y/zS1L3NT/web-next-markex?style=for-the-badge) ![Last commit](https://img.shields.io/github/last-commit/zS1L3NT/web-next-markex?style=for-the-badge)
-
-Markex is a website that displays Stock prices, Stock insights, Forex prices, Forex insights, and News related to the markets. Users also can bookmark their favorite Stock companies and Forex pairs to keep track of them.
-
-## Motivation
-
-I needed a deliverable for my DBFS (Digital Banking and Financial Services) submissions, so I decided to build a website revolving around FOREX prices and Fidor API.
-
-I was also asked to improve this website and present it at TP InfoTech Day, so it was also added to the list of deliverables for my FYP (Final Year Project).
+This is a website that displays Stock prices, Stock insights, Forex prices, Forex insights, and News related to the markets. Users also can bookmark their favorite Stock companies and Forex pairs to keep track of them.
 
 ## Features
 
@@ -30,13 +18,6 @@ I was also asked to improve this website and present it at TP InfoTech Day, so i
 ## Usage
 
 Copy the `.env.example` file to `.env` then fill in the correct project credentials
-
-```
-$ bun i
-$ bun dev
-```
-
-## Credits
 
 Data sources:
 
