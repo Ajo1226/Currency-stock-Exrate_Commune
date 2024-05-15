@@ -1,0 +1,15 @@
+datasource db {
+    provider = "cockroachdb"
+    url      = env("DATABASE_URL")
+}
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+model Bookmark {
+    user_id    String
+    instrument String
+
+    @@unique([user_id, instrument])
+}
