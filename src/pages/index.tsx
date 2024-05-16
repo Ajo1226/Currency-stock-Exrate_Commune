@@ -2,10 +2,11 @@ import { Button, Flex } from "@mantine/core"
 import { GetServerSideProps } from "next"
 import Link from "next/link"
 import Head from "next/head"
+import Shell from "@/components/Shell"
 
 export default function Home() {
 	return (
-        <>
+        <Shell>
 			<Head>
 				<title>Commune - Stock&FX Mastery</title>
 			</Head>
@@ -22,7 +23,7 @@ export default function Home() {
 					<Button style={{fontSize:"20px", height:"40px"}}>Let's Go</Button>
 				</Link>
 			</div>
-        </>
+        </Shell>
     )
 }
 

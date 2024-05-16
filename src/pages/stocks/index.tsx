@@ -109,7 +109,7 @@ export default function Stocks() {
 	return (
 		<Shell>
 			<Head>
-				<title>{"Markex | Stocks"}</title>
+				<title>{"Stock&FM Mastery | Stocks"}</title>
 			</Head>
 			<Title my="md">Trending</Title>
 			<Box sx={{ overflowX: "scroll", whiteSpace: "nowrap" }}>

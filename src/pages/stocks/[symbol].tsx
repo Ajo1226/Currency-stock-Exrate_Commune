@@ -137,7 +137,7 @@ export default function Symbol({ symbol }: Props) {
 		<Shell>
 			{asset && (
 				<Head>
-					<title>{"Markex | " + asset.symbol.toUpperCase()}</title>
+					<title>{"Stock&FM Mastery | " + asset.symbol.toUpperCase()}</title>
 				</Head>
 			)}
 			<Flex direction={isBelowSm ? "column" : "row"}>

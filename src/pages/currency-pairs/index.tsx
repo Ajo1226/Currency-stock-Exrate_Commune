@@ -187,7 +187,7 @@ export default function CurrencyPairs() {
 	return (
 		<Shell>
 			<Head>
-				<title>Markex | Currency Pairs</title>
+				<title>Stock&FM Mastery | Currency Pairs</title>
 			</Head>
 
 			<Title my="md">Currency Pairs</Title>

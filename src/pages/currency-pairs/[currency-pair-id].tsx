@@ -108,7 +108,7 @@ export default function CurrencyPair({ currencyPair }: Props) {
 	return (
 		<Shell>
 			<Head>
-				<title>{"Markex | " + currencyPairPretty}</title>
+				<title>{"Stock&FM Mastery | " + currencyPairPretty}</title>
 			</Head>
 
 			<Flex
