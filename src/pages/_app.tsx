@@ -63,7 +63,7 @@ export default function App({
 				/>
 				<meta
 					name="title"
-					content="Markex"
+					content="StockFX Mastery"
 				/>
 				<meta
 					name="description"
@@ -79,7 +79,7 @@ export default function App({
 				/>
 				<meta
 					property="og:title"
-					content="Markex"
+					content="StockFX Mastery"
 				/>
 				<meta
 					property="og:description"

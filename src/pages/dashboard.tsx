@@ -111,7 +111,7 @@ export default function Dashboard() {
 	return (
 		<Shell>
 			<Head>
-				<title>Commune_Currency/Stock-ExchangeRate Detector</title>
+				<title>Commune - Stock&FX Mastery</title>
 			</Head>
 
 			<Box

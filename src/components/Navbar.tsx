@@ -241,7 +241,7 @@ export default function Navbar({
 							initial={{ opacity: 1 }}
 							animate={{ opacity: 1 }}
 							exit={{ opacity: 0 }}>
-							<Title order={4}>Commune</Title>
+							<Title order={4}>Stock&FX Mastery</Title>
 						</motion.div>
 					)}
 				</AnimatePresence>
