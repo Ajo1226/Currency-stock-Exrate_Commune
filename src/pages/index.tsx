@@ -6,7 +6,7 @@ import Shell from "@/components/Shell"
 
 export default function Home() {
 	return (
-        <Shell>
+        <>
 			<Head>
 				<title>Commune - Stock&FX Mastery</title>
 			</Head>
@@ -16,14 +16,14 @@ export default function Home() {
 					<h3>
 						<span style={{fontSize:"30px"}}><strong>Commune - Stock&FM Mastery</strong></span><br /> As a ultimate destination for real-time stock prices, insightful market analysis, and up-to-the-minute forex rates,
 						it is allowing you to effortlessly track your favorite stock companies and forex pairs. <br />
-						With comprehensive news, it ensures you're always informed and empowered to make strategic decisions.
+						With comprehensive news, it ensures you are always informed and empowered to make strategic decisions.
 					</h3>
 				</div>
 				<Link href="/dashboard">
-					<Button style={{fontSize:"20px", height:"40px"}}>Let's Go</Button>
+					<Button style={{fontSize:"20px", height:"40px"}}>Get Started</Button>
 				</Link>
 			</div>
-        </Shell>
+        </>
     )
 }
 
