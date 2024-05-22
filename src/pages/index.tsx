@@ -1,8 +1,6 @@
 import { Button, Flex } from "@mantine/core"
-import { GetServerSideProps } from "next"
 import Link from "next/link"
 import Head from "next/head"
-import Shell from "@/components/Shell"
 
 export default function Home() {
 	return (
@@ -14,7 +12,7 @@ export default function Home() {
 				<img src="/logo.gif" style={{height:"400px", width:"400px", marginBottom:"30px"}}></img>
 				<div style={{container:"revert",width:"60rem", textAlign:"center", marginBottom:"30px"}}>
 					<h3>
-						<span style={{fontSize:"30px"}}><strong>Commune - Stock&FM Mastery</strong></span><br /> As a ultimate destination for real-time stock prices, insightful market analysis, and up-to-the-minute forex rates,
+						<span style={{fontSize:"30px"}}><strong>Commune-Stock&FM Mastery</strong></span><br /> As a ultimate destination for real-time stock prices, insightful market analysis, and up-to-the-minute forex rates,
 						it is allowing you to effortlessly track your favorite stock companies and forex pairs. <br />
 						With comprehensive news, it ensures you are always informed and empowered to make strategic decisions.
 					</h3>

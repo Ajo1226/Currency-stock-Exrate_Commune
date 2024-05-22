@@ -1,24 +1,16 @@
-import { AnimatePresence, motion } from "framer-motion"
 import Head from "next/head"
-import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useMemo, useRef, useState } from "react"
 
 import {
-	ActionIcon,
 	Anchor,
-	Badge,
 	Box,
 	Flex,
 	Grid,
-	Loader,
-	SegmentedControl,
-	Table,
 	Text,
 	Title,
 	useMantineTheme,
 } from "@mantine/core"
-import { IconCalendar, IconFilter, IconHistory } from "@tabler/icons-react"
 
 import { FXEmpireEvent } from "@/@types/fxempire"
 import { useGetFXEmpireEventsQuery, useGetFXStreetNewsQuery } from "@/api/news"
